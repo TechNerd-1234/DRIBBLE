@@ -148,11 +148,6 @@
     cursor: pointer;
 }
 
-.p-profile p:hover{
-    text-decoration: underline;
-    color: aqua;
-}
-
 .p-profile1{
     font-weight: 500;
     font-size: 13.5px;
