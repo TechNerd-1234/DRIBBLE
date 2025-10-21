@@ -6,8 +6,9 @@
 }
 
 .head{
-    margin-top: 1.2em;
+    padding-top: 1.2em;
     height: 92px;
+    background-color: white;
     align-content: center;
     position: fixed;
 }
@@ -22,7 +23,7 @@
     border: 0px;
     background-color: rgb(248, 248, 248);
     border-radius: 2em;
-    padding: 1.7em;
+    padding: 1.8em;
     font-size: 13.5px;
 }
 
@@ -103,7 +104,87 @@
     padding: 0.9em 0px 0px 1.3em;
     border-radius: 40px;
 }
+
 .nav-login1{
     color: white;
     text-decoration: none;
+}
+
+.dribble-section{
+    padding: 64px 120px 64px 120px;
+    margin: 0px 14px 0px 14px;
+}
+
+.dribble-webform{
+    padding-top: 5.5em;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2em;
+}
+
+.first-container{
+    display: flex;
+    align-items: center;
+    margin-right: 38em;
+}
+
+.first-container1{
+    display: flex;
+    align-items: center;
+}
+
+.img-profile{
+    width: 50px;
+    border-radius: 5em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.p-profile{
+    font-weight: 600;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0.3em;
+    cursor: pointer;
+}
+
+.p-profile p:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.p-profile1{
+    font-weight: 500;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0.3em;
+    color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.like-profile{
+    width: 37px;
+    height: 37px;
+    border: solid 1px rgb(184, 184, 184);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3em;
+    padding: 9.5px;
+    cursor: pointer;
+    margin-right: .8em;
+}
+
+.button-dribble2{
+    background-color: black;
+    height: 3em;
+    width: 8.5em;
+    color: white;
+    border: solid 1px;
+    border-radius: 3em;
+    cursor: pointer;
+}
+
+.main-container-dribble1{
+    display: flex;
+    position: fixed;
+    background-color: white;
 }
