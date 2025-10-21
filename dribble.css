@@ -9,6 +9,7 @@
     margin-top: 1.2em;
     height: 92px;
     align-content: center;
+    position: fixed;
 }
 
 .nav-top{
@@ -39,28 +40,37 @@
 
 .nav-img{
     width: 88.9px;
-    margin: 0.4em 40px 10px 2.5em;
+    margin: 0.4em 30px 10px 2.5em;
 
 }
 
 .cade{
-    margin-right: 1em;
-    margin-top: 1em;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 1em 6px 0px 0px;
+}
+
+.me{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5em;
 }
 
 .input-shots{ 
     font-weight: 600;
     font-size: 13.5px;
     margin-top: -2.65em;
-    margin-left: 26.5em;
+    margin-left: 26em;
+    cursor: pointer;
 }
 
 .input-icon{
-    margin-left: 1.9em;
-    width: 42px;
-    height: 42px;
-    padding: 7px;
-    background-color: violet;
+    margin-left: 2em;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(250, 15, 133, 0.733);
     border-radius: 20px;
 }
 
@@ -69,4 +79,31 @@
 }
 .aaw{
     margin-top: -3em;
+}
+
+.nav-select{
+    border: none;
+    margin-left: 1.8em;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 6.8em;
+}
+
+
+.nav-login{
+    width: 6em;
+    height: 3em;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0.3em 0px 0px 0.5em;
+    padding: 0.9em 0px 0px 1.3em;
+    border-radius: 40px;
+}
+.nav-login1{
+    color: white;
+    text-decoration: none;
 }
